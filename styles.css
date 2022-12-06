@@ -54,3 +54,13 @@ li a {
     background-color: black;
 }
 
+.content-container {
+    border: 1px solid black;
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    align-items: center;
+    justify-content:  center;
+    padding: 5%;
+    margin-left: 25%;
+}
