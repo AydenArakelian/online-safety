@@ -76,3 +76,15 @@ li a {
     justify-content: center;
     padding-right: 60vh;
 }
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.solutions-passwords-image,
+.solutions-vpn-image,
+.solutions-malware-image {
+    width: 50%;
+    height: auto;
+}
