@@ -88,3 +88,7 @@ li a {
     width: 50%;
     height: auto;
 }
+
+nav a:hover {
+    color: lightskyblue;
+}
