@@ -1,3 +1,23 @@
+header {
+    font-size: 1.4vw;
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: no-wrap;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+footer p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 body {
     background-color: #E2E2E0;
     margin: 0;
@@ -52,13 +72,29 @@ li a {
     text-decoration: none;
 }
 
+footer {
+    font-size: 1vw;
+}
+
+footer a:link {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: lightblue;
+}
+
 .home-text {
     width: 100%;
     height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
+    font-size: 3.0722vh;
     margin: 2% 0%
 }
 
@@ -100,6 +136,11 @@ li a {
     align-items: center;
 }
 
+.malware-content a {
+    text-decoration: none;
+    color: black;
+}
+
 .passwords-image,
 .vpn-image,
 .malware-image {
@@ -122,11 +163,12 @@ li a {
 nav a:hover {
     color: lightskyblue;
 }
+
 #solutext{
     align-items: center;
     width: 50%;
     margin-top: 2%;
     margin-bottom: 2%;
-    font-size: 20px;
+    font-size: 1.92012vh;
     line-height: 200%;
 }
