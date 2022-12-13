@@ -1,21 +1,7 @@
+/* All Pages */
+
 header {
     font-size: 1.4vw;
-}
-
-footer {
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: no-wrap;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-}
-
-footer p {
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 body {
@@ -32,35 +18,15 @@ nav {
     background-color: black;
 }
 
-.hero-image {
-    background-image: url(/images/image.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 50vh;
-}
-
-.hero-image2 {
-    background-image: url(/images/image2.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 50vh;
-}
-
-.hero-image3 {
-    background-image: url(/images/image3.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 50vh;
-}
-
 nav ul {
     display: flex;
     justify-content: space-around;
     width: 100%;
     background-color: black;
+}
+
+nav a:hover {
+    color: lightskyblue;
 }
 
 ul li {
@@ -73,7 +39,19 @@ li a {
 }
 
 footer {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: no-wrap;
+    background-color: black;
+    color: white;
     font-size: 1vw;
+}
+
+footer p {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 footer a:link {
@@ -88,13 +66,23 @@ footer a:hover {
     color: lightblue;
 }
 
+/* Home Page */
+
+.hero-image {
+    background-image: url(/images/image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+
 .home-text {
     width: 100%;
     height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3.0722vh;
+    font-size: 2vw;
     margin: 2% 0%
 }
 
@@ -104,6 +92,16 @@ footer a:hover {
     text-align: center;
     color: white;
     background-color: black;
+}
+
+/* Problems */
+
+.hero-image2 {
+    background-image: url(/images/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
 }
 
 .content-container {
@@ -128,6 +126,16 @@ footer a:hover {
     display: flex;
     justify-content: center;
     padding-right: 60vh;
+}
+
+/* Solutions Page */
+
+.hero-image3 {
+    background-image: url(/images/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
 }
 
 .solution-container {
@@ -158,10 +166,6 @@ footer a:hover {
 .malware-image img {
     width: 50%;
     margin-bottom: 3%;
-}
-
-nav a:hover {
-    color: lightskyblue;
 }
 
 #solutext{
