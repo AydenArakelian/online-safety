@@ -88,8 +88,8 @@ footer a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.9vw;
-    margin: 2% 0%
+    font-size: max(1.9vw, 16px);
+    margin: 2% 0%;
 }
 
 .home-text p {
@@ -132,6 +132,7 @@ footer a:hover {
     display: flex;
     justify-content: center;
     padding-right: 60vh;
+    font-size: 200%;
 }
 
 /* Solutions Page */
