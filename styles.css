@@ -163,15 +163,16 @@ footer a:hover {
     width: 100%;
 }
 
-.passwords-image img {
-    width: 50%;
-}
+.passwords-image img,
 .vpn-image img {
     width: 50%;
+    border-radius: 50%;
 }
+
 .malware-image img {
     width: 50%;
     margin-bottom: 3%;
+    border-radius: 50%;
 }
 
 #passtext,
