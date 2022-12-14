@@ -71,13 +71,6 @@ footer a:hover {
     color: lightblue;
 }
 
-/* Tablet Styles */
-@media only screen and (min-width: 390px) and (max-width: 844px) {
-    * {
-        width: 200%;
-    }
-  }
-
 /* Home Page */
 
 .hero-image {
