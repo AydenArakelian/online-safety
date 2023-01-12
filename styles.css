@@ -46,7 +46,7 @@ li a {
 }
 
 footer {
-    height: 5vh;
+    height: max(5vh, 76px);
     display: flex;
     align-items: center;
     justify-content: center;
