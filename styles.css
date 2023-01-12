@@ -134,7 +134,8 @@ footer a:hover {
 .content-title {
     display: flex;
     padding-left: 25vw;
-    font-size: 1.563vw;
+    /* font-size: 1.563vw; */
+    font-size: max(1.563vw, 18px);
 }
 
 /* Solutions Page */
